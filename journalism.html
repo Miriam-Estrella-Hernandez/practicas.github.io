@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Layout</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      color: #000000;
+      background-color: #ffffff;
+    }
+    /* Header */
+    header {
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+    }
+    .navbar a {
+      margin-left: 20px;
+      color: #000000;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    /* Sections */
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      border-bottom: 1px solid #ddd;
+    }
+    .section h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+    .section-content {
+        display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .section-content img {
+        left: 900px;
+      width: 400px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .section-content1 {
+        display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .section-content1 img {
+      width: 1000px;
+      height: 1000px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .text-content {
+      max-width: 600px;
+    }
+    .text-content p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    .read-more {
+      display: inline-block;
+      margin-top: 10px;
+      color: #b029f4;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    /* Orange Bar */
+    .orange-bar {
+      background-color: #b029f4;
+      height: 50px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: #000000;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+    /* Company Grid */
+    .company-grid {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .company-grid-item {
+      flex: 1 1 calc(25% - 10px);
+      background-color: #e0e0e0;
+      text-align: center;
+      padding: 20px;
+      font-weight: bold;
+      color: #444;
+    }
+    .company-grid-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    /* By the Numbers */
+    .numbers-section {
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 1px solid #ddd;
+    }
+    .numbers-section div {
+      display: inline-block;
+      width: 180px;
+      font-size: 24px;
+      font-weight: bold;
+      margin: 20px;
+    }
+    .numbers-section span {
+      display: block;
+      font-size: 14px;
+      color: #666;
+      margin-top: 5px;
+    }
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .footer-content p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 5px;
+    }
+    .footer-links {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    .footer-links a {
+      color: #666;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer-section div {
+    margin: 10px;
+  }
+  .footer-section h3 {
+    margin-top: 0;
+  }
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="navbar">
+      <a href="company.html">COMPANY</a>
+      <a href="journalism.html">JOURNALISM</a>
+      <a href="careers.html">CAREERS</a>
+      <a href="inverstors.html">INVESTORS</a>
+    </div>
+  </header>
+
+  <!-- seccion journal -->
+  <div class="section">
+    <div class="section-content">
+      <img src="https://mott.pe/noticias/wp-content/uploads/2018/03/10-tips-para-saber-c%C3%B3mo-ser-un-buen-fot%C3%B3grafo-profesional-portada.jpg" alt="Mission and Values Image">
+      <div class="text-content">
+        <p>In our Journal section of Foto Studio, we celebrate the beauty and diversity of the world through the lens of our talented photographers. Here, you'll find a collection of visual stories that capture unique and exciting moments, from special events to intimate portraits and breathtaking landscapes. Each entry in our journal is a window into different cultures, emotions and perspectives, showcasing not only the technique and creativity of our photographers, but also the stories behind each image.</p>
+         <p> At Foto Studio, we believe that a photograph is worth a thousand words, and in our journal, we strive to tell those stories in a way that resonates with authenticity and emotion. Whether you're looking for inspiration for your next photoshoot, pro tips to improve your photography skills, or just want to enjoy beautiful images and their stories, our journal is the perfect place for you.</p>
+         <p>We invite you to explore, share and be part of our community, where each photograph is a testament to the passion and dedication we put into our work. Welcome to our visual world! 📸✨</p>
+        <a href="#" class="read-more">READ OUR MISSION AND VALUES</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Our People Section -->
+  <div class="section">
+    <h2>Journalists on the ground</h2>
+    <div class="section-content1">
+        <img src="https://th.bing.com/th/id/OIP.S_DCraAHUJcer-G3T3AwXQHaHa?rs=1&pid=ImgDetMain" alt="Our People Image">
+        
+    </div>
+    <p>Mexico City and its culture</p> <!-- Mover el párrafo aquí -->
+    <div class="orange-bar">MEET SOME OF OUR Journalists</div>
+  </div>
+
+  <!-- Explore Our Company Section -->
+  <div class="section">
+    <h2>Explore Further</h2>
+    <div class="company-grid">
+      <div class="company-grid-item">
+        <img src="https://www.blogdelfotografo.com/wp-content/uploads/2013/12/fotografo-camara.jpg" alt="History Image">
+        Newsroom
+      </div>
+      <div class="company-grid-item">
+        <img src="https://th.bing.com/th/id/OIP.sFKaVDqpC7CRquTBIush8wAAAA?rs=1&pid=ImgDetMain" alt="Awards Image">
+        History
+      </div>
+      <div class="company-grid-item">
+        <img src="https://th.bing.com/th/id/OIP.1XyN7caGdcyIfq7wZjbUhwHaE8?w=253&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Diversity Image">
+        Company
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-section">
+      <div>
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">People</a></li>
+          <li><a href="#">Diversity</a></li>
+          <li><a href="#">History</a></li>
+          <li><a href="#">Awards and Recognition</a></li>
+          <li><a href="#">Social Responsibility</a></li>
+          <li><a href="#">Journalism</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Careers</h3>
+        <ul>
+          <li><a href="#">Newsroom</a></li>
+          <li><a href="#">Technology</a></li>
+          <li><a href="#">Product and Design</a></li>
+          <li><a href="#">Marketing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Investors</h3>
+        <ul>
+          <li><a href="#">Collaborate</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">California Notice</a></li>
+        </ul>
+      </div>
+    </div>
+    <p>© 2024 MY COMPANY. Todos los derechos reservados.</p>
+    <img src="logo 80.jpg" alt="Nuestro logo">
+  </footer>
+
+</body>
+</html>
+
